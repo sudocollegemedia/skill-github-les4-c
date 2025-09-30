@@ -22,4 +22,19 @@
 1.     het was lekker
 ------
 
-``` dit is een codeblok ```
+``` cs 
+for (int i = 0 ; i<10;i++>) {
+    go round()
+}```
+
+```js
+// voor leeftijd bepalen (verplaats de gegevens in leeftijdInms met jou eigen)
+function leeftijdInms(year, month, day) 
+        {
+             let now = new Date();
+             let birth = new Date(year, month - 1, day); 
+             let miliseconds = now - birth; 
+             return miliseconds / (1000 * 60 * 60 * 24 * 365); 
+            }
+        console.log('Leeftijd in jaren:', leeftijdInms(2009, 6, 15));
+```
